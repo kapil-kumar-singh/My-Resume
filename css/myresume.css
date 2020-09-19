@@ -5,6 +5,48 @@ body::-webkit-scrollbar {
     display: none; 
 }
 
+#dark_mode{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+#dark_mode p{
+    font-size: medium;
+    margin: 0px;
+}
+
+#dark_box{
+    background-color: white;
+    width: 5.3rem;
+    height: 1.55rem;
+    border-radius: 20px;
+    padding: 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#cricle{
+    background-color: black;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    transition: 1s;
+
+}
+
+.add_bc_even{
+    background-color: rgb(4 2 2) !important;
+}
+.add_bc_odd{
+    background-color: rgb(39 9 37) !important;
+}
+.color_white{
+    color: white !important;
+}
+
+
+
 #dropdown-menu{
     text-align: right;
     margin-right: 10px;
@@ -369,8 +411,9 @@ section h1 span{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: rgb(53, 29, 29);
+    background-color: rgb(255, 0, 0);
     top: 16%;
+    z-index: 10;
 }
 .project_div:nth-child(2n)::after{
     left: -23.6%; 
@@ -404,7 +447,7 @@ section h1 span{
     top: 3.2%;
     width: 0px;
     height: 85.2%;
-    border: black 1px dashed;
+    border: 1px dashed;
 }
 #timeline_divider div{
     transform: translate(-17px, -3px);
@@ -412,6 +455,7 @@ section h1 span{
     color: rgb(17, 0, 255);
     position: sticky;
     top: 19%;
+    z-index: 20;
 }
 #timeline_divider div i{
     transform: rotate(90deg);
@@ -538,6 +582,33 @@ section h1 span{
 
  @media ( max-width: 900px){
 
+    #dark_mode{
+        right: 15%;
+        top: 6%;
+    }
+    #dark_mode p{
+        font-size: x-small;
+        margin: 0px;
+    }
+    
+    #dark_box{
+        background-color: white;
+        width: 3.4rem;
+        height: 1rem;
+        border-radius: 20px;
+        padding: 1px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+    #cricle{
+        background-color: black;
+        width: 0.9rem;
+        height: 0.9rem;
+        border-radius: 50%;
+        transition: 1s;
+    
+    }
+
     #dropdown-menu{
         display: inline-block;
         text-align: right;
@@ -603,4 +674,8 @@ section h1 span{
     }
 
 
+}
+
+.heading_color{
+    color: white !important;
 }
