@@ -91,7 +91,7 @@ body::-webkit-scrollbar {
 
 /* ####### sytle navigation bar ######## */
 header{
-    background-image: url("/images/Programming\ HD\ wallpaper\ for\ 4K\ 3840x2160\ screens\ -\ HDwallpapers.net.jpg");
+    background-image: url("../images/backgroundimae.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
