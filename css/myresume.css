@@ -502,6 +502,7 @@ section h1 span{
 }
 #contact_container{
     width: 90%;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -572,7 +573,7 @@ section h1 span{
     padding-left: 0px;
 }
 #contact_social {
-    padding-bottom: 20px;
+    padding-bottom: 35px;
 }
 #btp a{
     color: white;
